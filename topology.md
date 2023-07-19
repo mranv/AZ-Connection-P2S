@@ -14,16 +14,13 @@ User 2:
 - Firewall and Custom DNS Servers: The VPN configuration includes a firewall that acts as custom DNS servers.
 - Public IP Address: The firewall's public IP address is (x.x.x.x).
 
-![Example SVG](./Internet2.svg)
+![Example SVG](./media/Internet2.svg)
 
 
 
 # **Brief About the Document**
 This document aims to provide a detailed overview of the Custom Topology used above, including its functionalities and various components. Whether you are a technical expert or a non-technical user, this documentation strives to offer clarity, conciseness, and accuracy, enabling you to understand and utilize the system effectively.
 
-## Overview of the IP Address Retrieval System
-
-The IP Address Retrieval System is a sophisticated tool designed to cater to two distinct user types: User 1 and User 2. Each user type has different connection configurations and methods for IP address retrieval.
 
 ### User 1
 
