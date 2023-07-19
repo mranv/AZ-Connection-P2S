@@ -1,0 +1,13 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - aio.md
+  - README.md
+  - Conditional Access.md
+  - Firewall Policy.md
+  - topology.md
+  - vHUB Firewall.md
+  - vwan setup.md
