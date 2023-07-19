@@ -32,6 +32,8 @@ Verify that you've met the following criteria before beginning your configuratio
 
 ## <a name="wan"></a>Create a virtual WAN
 
+![Example SVG](./media/1.jpeg)
+
 From a browser, navigate to the [Azure portal](https://portal.azure.com) and sign in with your Azure account.
 
 [!INCLUDE [Create a virtual WAN](../../includes/virtual-wan-create-vwan-include.md)]
@@ -41,6 +43,8 @@ From a browser, navigate to the [Azure portal](https://portal.azure.com) and sig
 A User VPN configuration defines the parameters for connecting remote clients. It's important to create the User VPN configuration before configuring your virtual hub with P2S settings, as you must specify the User VPN configuration you want to use.
 
 1. Navigate to your **Virtual WAN ->User VPN configurations** page and click **+Create user VPN config**.
+
+![Example SVG](./media/3.jpeg)
 
 
 1. On the **Basics** page, specify the parameters.
@@ -65,10 +69,11 @@ A User VPN configuration defines the parameters for connecting remote clients. I
      * Enter `https://login.chinacloudapi.cn/{AzureAD TenantID}` for China 21Vianet AD
 
 1. Click **Create** to create the User VPN configuration. You'll select this configuration later in the exercise.
-
 ## <a name="site"></a>Create an empty hub
 
 For this exercise, we create an empty virtual hub in this step and, in the next section, you add a P2S gateway to this hub. However, you can combine these steps and create the hub with the P2S gateway settings all at once. The result is the same either way. After configuring the settings, click **Review + create** to validate, then **Create**.
+
+![Example SVG](./media/2.jpeg)
 
 [!INCLUDE [Create an empty hub](../../includes/virtual-wan-hub-basics.md)]
 
