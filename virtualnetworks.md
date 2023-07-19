@@ -146,7 +146,7 @@ Sure! Here's a step-by-step procedure to connect and import a VPN client profile
    Sure! I've added the step to include the specified routes in the VPN client profile configuration:
 
 ```markdown
-# Connect and Import VPN Client Profile from Azure VPN Client
+# Setup the config file in azurevpnconfig 
 
 1. **Open the VPN Client Profile:**
    Use a text editor to open the downloaded VPN client profile.
